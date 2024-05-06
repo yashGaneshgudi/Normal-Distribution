@@ -13,5 +13,5 @@ for i in range (100000):
     print(heads)
 
 import matplotlib.pyplot as plt
-plt.hist(results,bins=1000)
+plt.hist(results,bins=500)
 plt.show()
