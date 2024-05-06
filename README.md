@@ -2,13 +2,19 @@
 
 A normal distribution is generated as seen below.
 
+![image](https://github.com/yashGaneshgudi/Normal-Distribution/assets/153029336/567c5b22-d9b1-4fde-9c00-1efe9912dfb7)
 
-![image](https://github.com/yashGaneshgudi/Normal-Distribution/assets/153029336/5178900f-b860-473b-bad8-001b555f5acc)
 
 It works by working out the amount of times heads is flipped when you flip the coin 10 times.
 It then repeats 10 flips 100K times.
 
 The result is a normal distribution showing the distribution of values as a histogram.
 
-![image](https://github.com/yashGaneshgudi/Normal-Distribution/assets/153029336/86328c82-5279-4edb-a06b-44acd2d2e45c)
+![image](https://github.com/yashGaneshgudi/Normal-Distribution/assets/153029336/1345ab99-f3f8-477a-bbf7-23ab7662b200)
 
+Issues I encountered was that the generated graph looked fixed not fluid like a normal distribution.
+![image](https://github.com/yashGaneshgudi/Normal-Distribution/assets/153029336/8c1a199c-2842-4963-a3ec-21214529851e)
+Fixed by using the bins function on matplotlib to make sepeate intervals and increasing the size of each trial.
+
+Reference:
+https://stackoverflow.com/questions/78437177/matplotlib-histogram-data-automatically-grouped/78437679#78437679
