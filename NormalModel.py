@@ -5,7 +5,7 @@ results=[]
 for i in range (100000):
     heads=0
     print(i)
-    for i in range(10):
+    for i in range(1000):
         coin = random.randint(0, 1)
         if coin == 1:
             heads += 1
@@ -13,5 +13,5 @@ for i in range (100000):
     print(heads)
 
 import matplotlib.pyplot as plt
-plt.hist(results)
+plt.hist(results,bins=1000)
 plt.show()
